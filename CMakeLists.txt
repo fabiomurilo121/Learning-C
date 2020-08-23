@@ -1,0 +1,6 @@
+# cmake_minimum_required(VERSION <specify CMake version here>)
+project(c)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(c lista-1/1.c cpf/cpf.c)
