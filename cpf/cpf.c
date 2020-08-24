@@ -3,29 +3,47 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
 #define TAM 14
-char cpf[TAM] = "101.171.63996", str[1];
-int cpfInt[TAM];
-int i, j, k;
 
+char aux[1], cpf[TAM] = "101.171.639-96";
+int i, cpfInt[11];
 
-int main(){
+void removeEspacos(char* s) {
+    const char* d = s;
+    do {
+        while (*d == ' ') {
+            ++d;
+        }
+    } while (*s++ = *d++);
+}
 
-    for (j = 0; j < TAM; ++j) {
-        str[0] = cpf[j];
-        if (str == '.' || str == '-') {
-            cpf[j] = cpf[j+1];
-        } else{
-            cpfInt[j] = (int) atoi(str);
+void removeDivicao(char entrada[]){
+    for(i=0; i< strlen(entrada); ++i){
+        if(entrada[i]=='.' || entrada[i]=='-'){
+            entrada[i] = ' ';
         }
     }
+}
 
-    for (int k = 0; k < TAM; ++k) {
-        printf("numero %d\n", cpfInt[k]);
+int main(int argc, char**argv){
+
+    printf("CPF de entrada foi: %s\n",cpf);
+
+    removeDivicao(cpf);
+    removeEspacos(cpf);
+
+
+    for (int j = 0; j < strlen(cpf); ++j) {
+        aux[0] = cpf[j];
+        cpfInt[j] = (int) atoi(aux);
+    }
+
+    for (int j = 0; j < strlen(cpf); ++j) {
+        printf("%d",cpfInt[j]);
     }
 
     return 0;
-
 }
