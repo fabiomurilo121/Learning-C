@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/c.dir/cpf/cpf.c.obj"
-  "CMakeFiles/c.dir/lista-1/1.c.obj"
   "c.exe"
   "c.exe.manifest"
   "c.lib"

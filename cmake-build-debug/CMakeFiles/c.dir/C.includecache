@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Fabio-PC/CLionProjects/c/f/1.c
+C:/Users/Fabio-Note/CLionProjects/Programa-imperativa/cpf/cpf.c
 stdio.h
 -
-stdbool.h
+stdlib.h
 -
 

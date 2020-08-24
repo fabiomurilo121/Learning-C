@@ -43,19 +43,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Fabio-PC\CLionProjects\c
+CMAKE_SOURCE_DIR = C:\Users\Fabio-Note\CLionProjects\Programa-imperativa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Fabio-PC\CLionProjects\c\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Fabio-Note\CLionProjects\Programa-imperativa\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\Fabio-PC\CLionProjects\c\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -74,7 +74,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-PC\CLionProjects\c\cmake-build-debug\CMakeFiles C:\Users\Fabio-PC\CLionProjects\c\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-Note\CLionProjects\Programa-imperativa\cmake-build-debug\CMakeFiles C:\Users\Fabio-Note\CLionProjects\Programa-imperativa\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-PC\CLionProjects\c\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-Note\CLionProjects\Programa-imperativa\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,33 +154,6 @@ cpf\cpf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\cpf\cpf.c.s
 .PHONY : cpf\cpf.c.s
 
-lista-1\1.obj: lista-1\1.c.obj
-
-.PHONY : lista-1\1.obj
-
-# target to build an object file
-lista-1\1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\1.c.obj
-.PHONY : lista-1\1.c.obj
-
-lista-1\1.i: lista-1\1.c.i
-
-.PHONY : lista-1\1.i
-
-# target to preprocess a source file
-lista-1\1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\1.c.i
-.PHONY : lista-1\1.c.i
-
-lista-1\1.s: lista-1\1.c.s
-
-.PHONY : lista-1\1.s
-
-# target to generate assembly for a file
-lista-1\1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\1.c.s
-.PHONY : lista-1\1.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,9 +166,6 @@ help:
 	@echo ... cpf/cpf.obj
 	@echo ... cpf/cpf.i
 	@echo ... cpf/cpf.s
-	@echo ... lista-1/1.obj
-	@echo ... lista-1/1.i
-	@echo ... lista-1/1.s
 .PHONY : help
 
 
