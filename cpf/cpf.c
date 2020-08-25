@@ -22,6 +22,19 @@ void removeEspacos(char* s) {
     } while (*s++ = *d++);
 }
 
+char* remove_espacos(char* str) {
+    char* nova_string = (char*)malloc(strlen(str)*sizeof(char));
+
+    int j = 0;
+
+    for (int i = 0; i < strlen(str); i++)
+        if (str[i] != ' ') nova_string[j++] = str[i];
+
+    nova_string[j] = '\0';
+
+    return nova_string;
+}
+
 void removeDivicao(char entrada[]){
     int i;
     for(i=0; i < strlen(entrada); ++i){
@@ -45,8 +58,7 @@ int main(int argc, char**argv){
     scanf("%s",&cpf);
     printf("CPF de entrada foi: %s\n",cpf);
     removeDivicao(cpf);
-    removeEspacos(cpf);
-    castInt(cpf,cpfInt);
+    castInt(remove_espacos(cpf),cpfInt);
 
     for (k = 10, h = 0; k >= 2, h < 9; --k, ++h) {
         soma1[h] = (cpfInt[h] * k);
