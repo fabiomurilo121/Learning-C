@@ -9,10 +9,9 @@
 #define TAM 14
 #define TAMINT 11
 
-char cpf[TAM] = "123.456.789-12";
-//char cpf[TAM] = "101.171.639-96";
+char cpf[TAM];
 int cpfInt[TAMINT],soma1[9],soma2[10];
-int  k, x, h, u, somaDig1, somaDig2, resto, primeiro;
+int  k, x, h, u, somaDig1, somaDig2, resto1, resto2, primeiro, segundo;
 
 void removeEspacos(char* s) {
     const char* d = s;
@@ -42,6 +41,8 @@ void castInt(char string[], int inteiros[]){
 
 int main(int argc, char**argv){
 
+    printf("informe seu CPF: xxx.xxx.xxx-xx\n",cpf);
+    scanf("%s",&cpf);
     printf("CPF de entrada foi: %s\n",cpf);
     removeDivicao(cpf);
     removeEspacos(cpf);
@@ -56,12 +57,11 @@ int main(int argc, char**argv){
     }
 
     if (somaDig1 % 11 == 0 || somaDig1 % 11 == 1) {
-        printf("deu %d\n",somaDig1 % 11);
+        printf("deu 0\n");
         cpfInt[9] = 0;
     } else{
-        resto = somaDig1 % 11;
-        primeiro = 11 - resto;
-        printf("%d",primeiro);
+        resto1 = somaDig1 % 11;
+        primeiro = 11 - resto1;
     }
 
     for (u = 11, x = 0; u >= 1, x < 10; --u, ++x) {
@@ -74,7 +74,16 @@ int main(int argc, char**argv){
         somaDig2 += soma2[l];
     }
 
-    printf("%d",somaDig2);
+    resto2 = somaDig2 % 11;
+    segundo = 11 - resto2;
+
+    if (primeiro == cpfInt[9] && segundo == cpfInt[10]){
+        printf("CPF Valido !!!\n");
+        printf("Digito Verificador eh: %d%d",primeiro,segundo);
+    } else{
+        printf("CPF Nao aceito !!!\n");
+        printf("Digito Verificador eh: %d%d",primeiro,segundo);
+    }
 
     return 0;
 }
