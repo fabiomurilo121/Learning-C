@@ -57,7 +57,7 @@ int main(int argc, char**argv){
 
     if (somaDig1 % 11 == 0 || somaDig1 % 11 == 1) {
         printf("deu %d\n",somaDig1 % 11);
-        cpfInt[9] = somaDig1 % 11;
+        cpfInt[9] = 0;
     } else{
         resto = somaDig1 % 11;
         primeiro = 11 - resto;
@@ -65,7 +65,7 @@ int main(int argc, char**argv){
     }
 
     for (u = 11, x = 0; u >= 1, x < 10; --u, ++x) {
-        printf("%d\n",cpfInt[x]);
+        //printf("%d\n",cpfInt[x]);
         soma2[x] = (cpfInt[x] * u);
     }
 
