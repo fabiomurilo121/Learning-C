@@ -9,8 +9,10 @@
 #define TAM 14
 #define TAMINT 11
 
-char aux[1], cpf[TAM] = "123.456.789-12";
-int cpfInt[TAMINT],soma[9], j, k, i;
+char cpf[TAM] = "123.456.789-12";
+//char cpf[TAM] = "101.171.639-96";
+int cpfInt[TAMINT],soma1[9],soma2[10];
+int  k, x, h, u, somaDig1, somaDig2, resto, primeiro;
 
 void removeEspacos(char* s) {
     const char* d = s;
@@ -23,10 +25,18 @@ void removeEspacos(char* s) {
 
 void removeDivicao(char entrada[]){
     int i;
-    for(i=0; i< strlen(entrada); ++i){
+    for(i=0; i < strlen(entrada); ++i){
         if(entrada[i]=='.' || entrada[i]=='-'){
             entrada[i] = ' ';
         }
+    }
+}
+
+void castInt(char string[], int inteiros[]){
+    int j,aux[1];
+    for (j = 0; j < strlen(string); ++j) {
+        aux[0] = string[j];
+        inteiros[j] = (int) atoi(aux);
     }
 }
 
@@ -35,20 +45,36 @@ int main(int argc, char**argv){
     printf("CPF de entrada foi: %s\n",cpf);
     removeDivicao(cpf);
     removeEspacos(cpf);
+    castInt(cpf,cpfInt);
 
-    for (j = 0; j < strlen(cpf); ++j) {
-        aux[0] = cpf[j];
-        cpfInt[j] = (int) atoi(aux);
-    }
-
-    for (k = 10, i = 0; k >= 2, i <= 9; --k, ++i) {
-
-        soma[i] = (cpfInt[i] * k);
+    for (k = 10, h = 0; k >= 2, h < 9; --k, ++h) {
+        soma1[h] = (cpfInt[h] * k);
     }
 
     for (int l = 0; l < 9; ++l) {
-        printf("%d\n",soma[l]);
+        somaDig1 += soma1[l];
     }
+
+    if (somaDig1 % 11 == 0 || somaDig1 % 11 == 1) {
+        printf("deu %d\n",somaDig1 % 11);
+        cpfInt[9] = somaDig1 % 11;
+    } else{
+        resto = somaDig1 % 11;
+        primeiro = 11 - resto;
+        printf("%d",primeiro);
+    }
+
+    for (u = 11, x = 0; u >= 1, x < 10; --u, ++x) {
+        printf("%d\n",cpfInt[x]);
+        soma2[x] = (cpfInt[x] * u);
+    }
+
+
+    for (int l = 0; l < 10; ++l) {
+        somaDig2 += soma2[l];
+    }
+
+    printf("%d",somaDig2);
 
     return 0;
 }
