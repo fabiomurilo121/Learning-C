@@ -11,23 +11,15 @@
 
 char cpf[TAM];
 int cpfInt[TAMINT],soma1[9],soma2[10];
-int  k, x, h, u, somaDig1, somaDig2, resto1, resto2, primeiro, segundo;
+int  k, x, h, u, l, somaDig1, somaDig2, resto1, resto2, primeiro, segundo;
 
-void removeEspacos(char* s) {
-    const char* d = s;
-    do {
-        while (*d == ' ') {
-            ++d;
-        }
-    } while (*s++ = *d++);
-}
 
 char* remove_espacos(char* str) {
     char* nova_string = (char*)malloc(strlen(str)*sizeof(char));
 
-    int j = 0;
-
-    for (int i = 0; i < strlen(str); i++)
+    int i, j = 0;
+	
+    for (i = 0; i < strlen(str); i++)
         if (str[i] != ' ') nova_string[j++] = str[i];
 
     nova_string[j] = '\0';
@@ -64,12 +56,13 @@ int main(int argc, char**argv){
         soma1[h] = (cpfInt[h] * k);
     }
 
-    for (int l = 0; l < 9; ++l) {
+	
+	
+    for (l = 0; l < 9; ++l) {
         somaDig1 += soma1[l];
     }
 
     if (somaDig1 % 11 == 0 || somaDig1 % 11 == 1) {
-        printf("deu 0\n");
         cpfInt[9] = 0;
     } else{
         resto1 = somaDig1 % 11;
@@ -77,25 +70,30 @@ int main(int argc, char**argv){
     }
 
     for (u = 11, x = 0; u >= 1, x < 10; --u, ++x) {
-        //printf("%d\n",cpfInt[x]);
         soma2[x] = (cpfInt[x] * u);
     }
 
 
-    for (int l = 0; l < 10; ++l) {
+    for (l = 0; l < 10; ++l) {
         somaDig2 += soma2[l];
     }
 
-    resto2 = somaDig2 % 11;
-    segundo = 11 - resto2;
+
+    if (somaDig2 % 11 == 0 || somaDig2 % 11 == 1) {
+        cpfInt[10] = 0;
+    } else{
+        resto2 = somaDig2 % 11;
+        segundo = 11 - resto2;
+    }
+
 
     if (primeiro == cpfInt[9] && segundo == cpfInt[10]){
         printf("CPF Valido !!!\n");
-        printf("Digito Verificador eh: %d%d",primeiro,segundo);
+        printf("Digito Verificador eh: %d%d\n",primeiro,segundo);
     } else{
         printf("CPF Nao aceito !!!\n");
-        printf("Digito Verificador eh: %d%d",primeiro,segundo);
+        printf("Digito Verificador eh: %d%d\n",primeiro,segundo);
     }
 
-    return 0;
+    system("PAUSE");
 }
