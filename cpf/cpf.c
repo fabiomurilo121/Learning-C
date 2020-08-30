@@ -44,7 +44,7 @@ void castInt(char string[], int inteiros[]){
     }
 }
 
-int main(int argc, char**argv){
+int main(){
 
     printf("informe seu CPF: xxx.xxx.xxx-xx\n",cpf);
     scanf("%s",&cpf);
@@ -52,11 +52,10 @@ int main(int argc, char**argv){
     removeDivicao(cpf);
     castInt(remove_espacos(cpf),cpfInt);
 
-    for (k = 10, h = 0; k >= 2, h < 9; --k, ++h) {
+    for (k = 10, h = 0; h < 9; --k, ++h) {
         soma1[h] = (cpfInt[h] * k);
     }
 
-	
 	
     for (l = 0; l < 9; ++l) {
         somaDig1 += soma1[l];
@@ -69,7 +68,7 @@ int main(int argc, char**argv){
         primeiro = 11 - resto1;
     }
 
-    for (u = 11, x = 0; u >= 1, x < 10; --u, ++x) {
+    for (u = 11, x = 0; x < 10; --u, ++x) {
         soma2[x] = (cpfInt[x] * u);
     }
 

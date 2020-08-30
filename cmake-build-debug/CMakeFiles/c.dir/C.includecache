@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cpf/cpf.c
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-1/9.c
 stdio.h
 -
-string.h
--
 stdlib.h
+-
+time.h
 -
 

@@ -127,32 +127,32 @@ c\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\build
 .PHONY : c\fast
 
-cpf\cpf.obj: cpf\cpf.c.obj
+lista-1\9.obj: lista-1\9.c.obj
 
-.PHONY : cpf\cpf.obj
+.PHONY : lista-1\9.obj
 
 # target to build an object file
-cpf\cpf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\cpf\cpf.c.obj
-.PHONY : cpf\cpf.c.obj
+lista-1\9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\9.c.obj
+.PHONY : lista-1\9.c.obj
 
-cpf\cpf.i: cpf\cpf.c.i
+lista-1\9.i: lista-1\9.c.i
 
-.PHONY : cpf\cpf.i
+.PHONY : lista-1\9.i
 
 # target to preprocess a source file
-cpf\cpf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\cpf\cpf.c.i
-.PHONY : cpf\cpf.c.i
+lista-1\9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\9.c.i
+.PHONY : lista-1\9.c.i
 
-cpf\cpf.s: cpf\cpf.c.s
+lista-1\9.s: lista-1\9.c.s
 
-.PHONY : cpf\cpf.s
+.PHONY : lista-1\9.s
 
 # target to generate assembly for a file
-cpf\cpf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\cpf\cpf.c.s
-.PHONY : cpf\cpf.c.s
+lista-1\9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-1\9.c.s
+.PHONY : lista-1\9.c.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c
-	@echo ... cpf/cpf.obj
-	@echo ... cpf/cpf.i
-	@echo ... cpf/cpf.s
+	@echo ... lista-1/9.obj
+	@echo ... lista-1/9.i
+	@echo ... lista-1/9.s
 .PHONY : help
 
 

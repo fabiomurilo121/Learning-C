@@ -61,33 +61,33 @@ include CMakeFiles\c.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\c.dir\flags.make
 
-CMakeFiles\c.dir\cpf\cpf.c.obj: CMakeFiles\c.dir\flags.make
-CMakeFiles\c.dir\cpf\cpf.c.obj: ..\cpf\cpf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/cpf/cpf.c.obj"
+CMakeFiles\c.dir\lista-1\9.c.obj: CMakeFiles\c.dir\flags.make
+CMakeFiles\c.dir\lista-1\9.c.obj: ..\lista-1\9.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/lista-1/9.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\c.dir\cpf\cpf.c.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cpf\cpf.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\c.dir\lista-1\9.c.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-1\9.c
 <<
 
-CMakeFiles\c.dir\cpf\cpf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/cpf/cpf.c.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe > CMakeFiles\c.dir\cpf\cpf.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cpf\cpf.c
+CMakeFiles\c.dir\lista-1\9.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/lista-1/9.c.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe > CMakeFiles\c.dir\lista-1\9.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-1\9.c
 <<
 
-CMakeFiles\c.dir\cpf\cpf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/cpf/cpf.c.s"
+CMakeFiles\c.dir\lista-1\9.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/lista-1/9.c.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\cpf\cpf.c.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cpf\cpf.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\lista-1\9.c.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-1\9.c
 <<
 
 # Object files for target c
 c_OBJECTS = \
-"CMakeFiles\c.dir\cpf\cpf.c.obj"
+"CMakeFiles\c.dir\lista-1\9.c.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
-c.exe: CMakeFiles\c.dir\cpf\cpf.c.obj
+c.exe: CMakeFiles\c.dir\lista-1\9.c.obj
 c.exe: CMakeFiles\c.dir\build.make
 c.exe: CMakeFiles\c.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c.exe"
