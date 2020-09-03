@@ -6,22 +6,26 @@
 
 int main(){
     int m[TAM][TAM];
-    int *p, i, aux = 0, tam = TAM*TAM, prox;
+    int *p, i, aux, tam = TAM*TAM;
 
     srand(time(NULL));
     p = m;
 
-    for (i=0; i< tam; i++) {
-        *p = 1 + rand() % 34;
-        printf ("%d ", *p);
-        if (aux == *p){
-            *p = 1 + rand() % 20;
-            printf ("%d ", *p);
-            p++;
+    for (int j = 0; j < tam; ++j) {
+        *p = 1 + rand() % 100;
+        printf("%d",*p);
+
+        for (int k = j; k >= 0; ++k) {
+            printf("%d",*(p-1));
         }
-        aux = *p;
         p++;
     }
+
+/*    for (i=0; i< tam; i++) {
+        *p = 1 + rand() % 34;
+        printf ("%3d ", *p);
+        p++;
+    }*/
 
     return 0;
 }

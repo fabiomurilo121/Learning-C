@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/func.c
-stdio.h
--
-stdlib.h
--
-time.h
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-1/teste.cpp
+iostream
 -
 

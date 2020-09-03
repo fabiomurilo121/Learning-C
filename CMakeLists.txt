@@ -3,4 +3,4 @@ project(c)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c lista-1/9.c)
+add_executable(c testes/func.c)
