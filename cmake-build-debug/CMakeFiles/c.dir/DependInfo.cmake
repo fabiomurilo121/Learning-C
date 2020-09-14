@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/func.c" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/testes/func.c.obj"
+  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-3/4.c" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/lista-3/4.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "C:/tools/libzplay-2.02-sdk/C++"
   )
 
 # Targets to which this target links.

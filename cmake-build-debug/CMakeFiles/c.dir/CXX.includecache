@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-1/teste.cpp
-iostream
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/musica/libzplay.h
+
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/musica/main.cpp
+windows.h
 -
+stdio.h
+-
+conio.h
+-
+libzplay.h
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/musica/libzplay.h
 
