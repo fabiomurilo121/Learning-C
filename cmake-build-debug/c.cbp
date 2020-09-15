@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-3/4.c">
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/word-split.c">
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/CMakeLists.txt">

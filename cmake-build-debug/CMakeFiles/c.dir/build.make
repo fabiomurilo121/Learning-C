@@ -76,28 +76,28 @@ include CMakeFiles/c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c.dir/flags.make
 
-CMakeFiles/c.dir/lista-3/4.c.obj: CMakeFiles/c.dir/flags.make
-CMakeFiles/c.dir/lista-3/4.c.obj: CMakeFiles/c.dir/includes_C.rsp
-CMakeFiles/c.dir/lista-3/4.c.obj: ../lista-3/4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/lista-3/4.c.obj"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\lista-3\4.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\4.c
+CMakeFiles/c.dir/testes/word-split.c.obj: CMakeFiles/c.dir/flags.make
+CMakeFiles/c.dir/testes/word-split.c.obj: CMakeFiles/c.dir/includes_C.rsp
+CMakeFiles/c.dir/testes/word-split.c.obj: ../testes/word-split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/testes/word-split.c.obj"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\testes\word-split.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\word-split.c
 
-CMakeFiles/c.dir/lista-3/4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/lista-3/4.c.i"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\4.c > CMakeFiles\c.dir\lista-3\4.c.i
+CMakeFiles/c.dir/testes/word-split.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/testes/word-split.c.i"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\word-split.c > CMakeFiles\c.dir\testes\word-split.c.i
 
-CMakeFiles/c.dir/lista-3/4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/lista-3/4.c.s"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\4.c -o CMakeFiles\c.dir\lista-3\4.c.s
+CMakeFiles/c.dir/testes/word-split.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/testes/word-split.c.s"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\word-split.c -o CMakeFiles\c.dir\testes\word-split.c.s
 
 # Object files for target c
 c_OBJECTS = \
-"CMakeFiles/c.dir/lista-3/4.c.obj"
+"CMakeFiles/c.dir/testes/word-split.c.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
-c.exe: CMakeFiles/c.dir/lista-3/4.c.obj
+c.exe: CMakeFiles/c.dir/testes/word-split.c.obj
 c.exe: CMakeFiles/c.dir/build.make
 c.exe: CMakeFiles/c.dir/linklibs.rsp
 c.exe: CMakeFiles/c.dir/objects1.rsp

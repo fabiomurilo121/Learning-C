@@ -142,32 +142,32 @@ c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/build
 .PHONY : c/fast
 
-lista-3/4.obj: lista-3/4.c.obj
+testes/word-split.obj: testes/word-split.c.obj
 
-.PHONY : lista-3/4.obj
+.PHONY : testes/word-split.obj
 
 # target to build an object file
-lista-3/4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/lista-3/4.c.obj
-.PHONY : lista-3/4.c.obj
+testes/word-split.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/testes/word-split.c.obj
+.PHONY : testes/word-split.c.obj
 
-lista-3/4.i: lista-3/4.c.i
+testes/word-split.i: testes/word-split.c.i
 
-.PHONY : lista-3/4.i
+.PHONY : testes/word-split.i
 
 # target to preprocess a source file
-lista-3/4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/lista-3/4.c.i
-.PHONY : lista-3/4.c.i
+testes/word-split.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/testes/word-split.c.i
+.PHONY : testes/word-split.c.i
 
-lista-3/4.s: lista-3/4.c.s
+testes/word-split.s: testes/word-split.c.s
 
-.PHONY : lista-3/4.s
+.PHONY : testes/word-split.s
 
 # target to generate assembly for a file
-lista-3/4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/lista-3/4.c.s
-.PHONY : lista-3/4.c.s
+testes/word-split.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make CMakeFiles/c.dir/testes/word-split.c.s
+.PHONY : testes/word-split.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c
-	@echo ... lista-3/4.obj
-	@echo ... lista-3/4.i
-	@echo ... lista-3/4.s
+	@echo ... testes/word-split.obj
+	@echo ... testes/word-split.i
+	@echo ... testes/word-split.s
 .PHONY : help
 
 

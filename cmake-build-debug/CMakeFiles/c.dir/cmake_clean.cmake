@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/lista-3/4.c.obj"
+  "CMakeFiles/c.dir/testes/word-split.c.obj"
   "c.exe"
   "c.exe.manifest"
   "c.pdb"

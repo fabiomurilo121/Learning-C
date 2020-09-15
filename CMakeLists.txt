@@ -5,4 +5,4 @@ include_directories("C:/tools/libzplay-2.02-sdk/C++")
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c lista-3/4.c)
+add_executable(c testes/word-split.c)
