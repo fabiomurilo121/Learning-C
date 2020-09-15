@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-char *palavras[] = {"Curitiba","Canada","Mexico","Peru","Franca"},*escolha[],*entrada[];
-int numVidas,i;
+int numVidas = 6, i;
+char *palavras[] = {"Curitiba","Canada","Mexico","Peru","Franca"},entrada[30];
 int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
 
 int randint(int v1, int v2){
@@ -18,30 +18,23 @@ int randint(int v1, int v2){
     return num;
 }
 
-int criaCopia(){
-
-    int x = randint(1,tamPalavra);
-    int i, count = 0;
-    for(i = 0; palavras[i] != '\0' ; i++) {
-        count++;
-    }
-
-    for(i = 0; i < count; i++) {
-        //printf("\n%c", word[i]);
-        escolha[i] = palavras[i];
-    }
-
-    return x;
+char *insertToArray(const char *val, char *arr){
+    strcpy(val, arr);
+    return arr;
 }
 
+void pegaPalavra(){
+    int x = randint(1,tamPalavra);
+    //printf("%s",palavras[x]);
+    char newArr[strlen(palavras[x]) + 1];
+    insertToArray(palavras[x],newArr);
+    printf("%s",newArr);
+
+}
 
 int main(){
     srand(time(NULL));
     //printf("BEM VINDO AO JOGO DA FORCA");
-    //printf("%s",palavras[criaCopia()]);
-    for (i = 0; i < 3; ++i) {
-        printf("%c",escolha[i]);
-    }
-
+    pegaPalavra();
 
 }

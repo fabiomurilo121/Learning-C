@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/word-split.c" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/testes/word-split.c.obj"
+  "/home/fabio/Documentos/Programa-imperativa/testes/word-split-2.c" "/home/fabio/Documentos/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/testes/word-split-2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/tools/libzplay-2.02-sdk/C++"
+  "../C:/tools/libzplay-2.02-sdk/C++"
   )
 
 # Targets to which this target links.

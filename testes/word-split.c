@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char word[100] = {"fnsdfjkn"},recebe[50];
+    char *word[] = {"fnsdfjkn","nfen","ndj"},recebe[50];
     //printf("Enter word: ");
     //scanf("%s", word);        //Inputting word
     int i;

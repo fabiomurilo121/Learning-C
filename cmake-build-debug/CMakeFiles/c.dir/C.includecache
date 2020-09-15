@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/word-split.c
+/home/fabio/Documentos/Programa-imperativa/testes/word-split-2.c
 stdio.h
+-
+stdlib.h
 -
 string.h
 -
