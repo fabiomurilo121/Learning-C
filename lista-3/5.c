@@ -8,7 +8,7 @@
 #include <stdbool.h>
 
 int numVidas = 6, i = 0, j;
-char *palavras[] = {"Curitiba","Canada","Mexico","Peru","Franca"},entrada[30],recebe[40],letra;
+char *palavras[] = {"curitiba","canada","mexico","peru","franca"},entrada[30],recebe[40],letra;
 int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
 bool ligado = true;
 
@@ -43,6 +43,16 @@ bool verificaLetra(char entrada){
     return veri;
 }
 
+bool verificaRepetido(char letra){
+    bool veri = false;
+    for (j = 0; j < strlen(entrada); ++j) {
+        if (letra == entrada[j]){
+            veri = true;
+        }
+    }
+    return veri;
+}
+
 int main(){
     srand(time(NULL));
     printf("BEM VINDO AO JOGO DA FORCA\n");
@@ -56,16 +66,28 @@ int main(){
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= \n");
     pegaPalavra();
     printf("A palavra da forca tem: %d letras\n",strlen(recebe));
-    printf("\nEntre com uma letra:");
+    printf("%s\n",recebe);
     while (ligado){
-        //letra = getchar();
-        letra = getc(stdin);
-        if (numVidas >= 0){
+        printf("Sua vida: %d\n",numVidas);
+        if (numVidas > 0){
+            printf("\nEntre com uma letra:");
+            scanf(" %c",&letra);
             if (verificaLetra(letra)){
-                printf("\nEntre com uma letra:");
+                if (verificaRepetido(letra)){
+                    printf("Esta letra ja foi usada\n");
+                } else {
+                    printf("certo:\n");
+                    entrada[i] = letra;
+                    i++;
+                }
             }else{
-                entrada[i] = letra;
-                i++;
+                if (verificaRepetido(letra)){
+                    printf("Esta letra ja foi usada\n");
+                } else {
+                    entrada[i] = letra;
+                    i++;
+                    numVidas += -1;
+                }
             }
         }else{
             printf("Game Over");
