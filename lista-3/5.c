@@ -8,8 +8,8 @@
 #include <stdbool.h>
 
 int numVidas = 6, i = 0, j, k, posi, l;
-char *palavras[] = {"curitiba","canada","mexico","peru","franca"},entrada[30],recebe[40],letra,forca[20];
-int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
+char *palavras[] = {"curitiba","vancouver","cidadedocabo","lima","paris",
+                    "fortaleza","saopaulo","toronto","berlim","londres"},entrada[30],recebe[40],letra,forca[20];
 bool ligado = true;
 
 int randint(int v1, int v2){
@@ -30,7 +30,7 @@ void copiarString (char *stringOriginal, char *stringCopia){
 }
 
 void pegaPalavra(){
-    copiarString(palavras[randint(1,tamPalavra)],recebe);
+    copiarString(palavras[randint(1,10)],recebe);
 }
 
 bool verificaLetra(char entrada){
@@ -98,7 +98,7 @@ int main(){
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= \n");
     pegaPalavra();
     printf("A palavra da forca tem: %d letras\n",strlen(recebe));
-    printf("%s\n",recebe);
+    //printf("%s\n",recebe);
     while (ligado){
         printf("Sua vida: %d\n",numVidas);
         if (numVidas > 0){
@@ -110,7 +110,6 @@ int main(){
                 if (verificaRepetido(letra)){
 
                 } else {
-//                  printf("certo:\n");
                     posi = pegaPosicaoP(recebe,letra);
                     forca[posi] = letra;
                     entrada[i] = letra;
@@ -135,12 +134,15 @@ int main(){
             }
         }
         else{
-            printf("Game Over");
+            printf("Game Over\n");
             ligado = false;
+            printf("A palavra era: ");
+            printf("%s\n",recebe);
             printf("Letras Usadas: ");
             for (l = 0; l < 30; ++l) {
                 printf("%c ",entrada[l]);
             }
         }
     }
+    system("PAUSE");
 }
