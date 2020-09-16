@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/fabio/Documentos/Programa-imperativa/testes/word-split-2.c
+C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-3/5.c
+string.h
+-
 stdio.h
 -
 stdlib.h
 -
-string.h
+time.h
 -
 

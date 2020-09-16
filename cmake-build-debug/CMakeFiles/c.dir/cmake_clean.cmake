@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/testes/word-split-2.c.o"
-  "c"
+  "CMakeFiles/c.dir/lista-3/5.c.obj"
+  "c.exe"
+  "c.exe.manifest"
   "c.pdb"
+  "libc.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

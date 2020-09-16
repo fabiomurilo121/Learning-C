@@ -7,8 +7,9 @@
 #include <time.h>
 
 int numVidas = 6, i;
-char *palavras[] = {"Curitiba","Canada","Mexico","Peru","Franca"},entrada[30];
+char *palavras[] = {"Curitiba","Canada","Mexico","Peru","Franca"},entrada[30],recebe[40];
 int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
+
 
 int randint(int v1, int v2){
     int i, num;
@@ -18,23 +19,27 @@ int randint(int v1, int v2){
     return num;
 }
 
-char *insertToArray(const char *val, char *arr){
-    strcpy(val, arr);
-    return arr;
+
+void copiarString (char *stringOriginal, char *stringCopia){
+    while (*stringOriginal != '\0'){
+        *stringCopia = *stringOriginal;
+        ++stringCopia;
+        ++stringOriginal;
+    }
+    *stringCopia = '\0';
 }
+
 
 void pegaPalavra(){
     int x = randint(1,tamPalavra);
     //printf("%s",palavras[x]);
-    char newArr[strlen(palavras[x]) + 1];
-    insertToArray(palavras[x],newArr);
-    printf("%s",newArr);
-
+    copiarString(palavras[x],recebe);
+    printf("%s",recebe);
 }
+
 
 int main(){
     srand(time(NULL));
     //printf("BEM VINDO AO JOGO DA FORCA");
     pegaPalavra();
-
 }
