@@ -57,8 +57,9 @@ int pegaPosicaoP(char vetor[],char letra){
     int posicao;
     int k;
     for (k = 0; k < strlen(vetor); ++k) {
-        if (letra == vetor[j]){
-            posicao = j;
+        if (letra == vetor[k]){
+            posicao = k;
+            forca[k] = letra;
         }
     }
     return posicao;
@@ -70,10 +71,18 @@ void desenha(){
             forca[k]= '_';
         }
     }
-    for (l = 0; l < strlen(recebe); ++l) {
-        if ()
-    }
     printf("%s",forca);
+}
+
+bool terminaProg(){
+    int m;
+    bool veri = false;
+    for (m = 0; m < strlen(forca); ++m) {
+        if (forca[m] == '_'){
+            veri = true;
+        }
+    }
+    return veri;
 }
 
 int main(){
@@ -99,7 +108,7 @@ int main(){
             printf("\n");
             if (verificaLetra(letra)){
                 if (verificaRepetido(letra)){
-                    printf("Esta letra esta certa mas ja foi usada\n");
+
                 } else {
 //                  printf("certo:\n");
                     posi = pegaPosicaoP(recebe,letra);
@@ -116,7 +125,7 @@ int main(){
                     numVidas += -1;
                 }
             }
-        }else if (forca == recebe){
+        }else if (terminaProg() == false){
             printf("Parabens voce achou a palavra");
         }
 

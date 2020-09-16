@@ -1,27 +1,22 @@
-//
-// Created by fabio on 15/09/2020.
-//
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <string.h>
 
-char *palavras[] = {"ola","tchau","bom-dia"};
-char *recebeX[];
-int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
+int main()
+{
+    char string[] = "olaadfo";
 
-int randint(int v1, int v2){
-    int i, num;
-    for (i = 0; i < tamPalavra; i++) {
-        num = (rand() % (v1 - v2 + 1)) + v1;
+    int count,i,j;
+    for(i = 0; i < strlen(string); i++) {
+        count = 1;
+        for(j = i+1; j < strlen(string); j++) {
+            if(string[i] == string[j] && string[i] != ' ') {
+                count++;
+                string[j] = '0';
+            }
+        }
+        if(count > 1 && string[i] != '0')
+            printf("%c\n", string[i]);
     }
-    return num;
-}
-
-int main (){
-    srand(time(NULL));
-    int x = randint(1,tamPalavra);
-    *recebeX = palavras[x];
-    printf("%s",recebeX);
 
     return 0;
 }
