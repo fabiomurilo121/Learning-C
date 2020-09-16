@@ -7,8 +7,8 @@
 #include <time.h>
 #include <stdbool.h>
 
-int numVidas = 6, i = 0, j;
-char *palavras[] = {"curitiba","canada","mexico","peru","franca"},entrada[30],recebe[40],letra;
+int numVidas = 6, i = 0, j, k, posi, l;
+char *palavras[] = {"curitiba","canada","mexico","peru","franca"},entrada[30],recebe[40],letra,forca[20];
 int tamPalavra = sizeof(palavras) / sizeof(palavras[0]);
 bool ligado = true;
 
@@ -53,6 +53,29 @@ bool verificaRepetido(char letra){
     return veri;
 }
 
+int pegaPosicaoP(char vetor[],char letra){
+    int posicao;
+    int k;
+    for (k = 0; k < strlen(vetor); ++k) {
+        if (letra == vetor[j]){
+            posicao = j;
+        }
+    }
+    return posicao;
+}
+
+void desenha(){
+    if ((void *) forca[0] == NULL){
+        for (k = 0; k < strlen(recebe); ++k) {
+            forca[k]= '_';
+        }
+    }
+    for (l = 0; l < strlen(recebe); ++l) {
+        if ()
+    }
+    printf("%s",forca);
+}
+
 int main(){
     srand(time(NULL));
     printf("BEM VINDO AO JOGO DA FORCA\n");
@@ -71,12 +94,16 @@ int main(){
         printf("Sua vida: %d\n",numVidas);
         if (numVidas > 0){
             printf("\nEntre com uma letra:");
+            desenha();
             scanf(" %c",&letra);
+            printf("\n");
             if (verificaLetra(letra)){
                 if (verificaRepetido(letra)){
-                    printf("Esta letra ja foi usada\n");
+                    printf("Esta letra esta certa mas ja foi usada\n");
                 } else {
-                    printf("certo:\n");
+//                  printf("certo:\n");
+                    posi = pegaPosicaoP(recebe,letra);
+                    forca[posi] = letra;
                     entrada[i] = letra;
                     i++;
                 }
@@ -89,7 +116,11 @@ int main(){
                     numVidas += -1;
                 }
             }
-        }else{
+        }else if (forca == recebe){
+            printf("Parabens voce achou a palavra");
+        }
+
+        else{
             printf("Game Over");
             ligado = false;
         }
