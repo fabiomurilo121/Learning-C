@@ -71,7 +71,7 @@ void desenha(){
             forca[k]= '_';
         }
     }
-    printf("%s",forca);
+    printf("%s :",forca);
 }
 
 bool terminaProg(){
@@ -102,7 +102,7 @@ int main(){
     while (ligado){
         printf("Sua vida: %d\n",numVidas);
         if (numVidas > 0){
-            printf("\nEntre com uma letra:");
+            printf("\nEntre com uma letra: ");
             desenha();
             scanf(" %c",&letra);
             printf("\n");
@@ -125,13 +125,22 @@ int main(){
                     numVidas += -1;
                 }
             }
-        }else if (terminaProg() == false){
-            printf("Parabens voce achou a palavra");
+            if (strcmp(recebe, forca) == 0){
+                printf("PARABENS VOCE ACERTOU A PALAVRA\n");
+                ligado = false;
+                printf("Letras Usadas: ");
+                for (l = 0; l < 30; ++l) {
+                    printf("%c ",entrada[l]);
+                }
+            }
         }
-
         else{
             printf("Game Over");
             ligado = false;
+            printf("Letras Usadas: ");
+            for (l = 0; l < 30; ++l) {
+                printf("%c ",entrada[l]);
+            }
         }
     }
 }
