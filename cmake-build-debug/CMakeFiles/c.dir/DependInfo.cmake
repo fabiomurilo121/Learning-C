@@ -1,16 +1,16 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-3/5.c" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/lista-3/5.c.obj"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/musica/main.cpp" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/musica/main.cpp.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/tools/libzplay-2.02-sdk/C++"
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "C:/tools/SFML-2.5.1/include"
   )
 
 # Targets to which this target links.

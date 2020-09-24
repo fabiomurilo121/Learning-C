@@ -74,19 +74,10 @@ void desenha(){
     printf("%s :",forca);
 }
 
-bool terminaProg(){
-    int m;
-    bool veri = false;
-    for (m = 0; m < strlen(forca); ++m) {
-        if (forca[m] == '_'){
-            veri = true;
-        }
-    }
-    return veri;
-}
 
 int main(){
     srand(time(NULL));
+    //system ("color 3b");
     printf("BEM VINDO AO JOGO DA FORCA\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= \n");
     printf("   ______     _____     ______    _______        __       \n");

@@ -4,17 +4,17 @@
 	<Project>
 		<Option title="c"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\tools\;CMake Files\..\..\..\..\..\tools\SFML-2.5.1\;CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c">
@@ -22,21 +22,23 @@
 				<Option working_dir="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/tools/libzplay-2.02-sdk/C++"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed"/>
+					<Add directory="C:/tools/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 c"/>
-					<CompileFile command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 c"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c/fast">
@@ -44,49 +46,69 @@
 				<Option working_dir="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/tools/libzplay-2.02-sdk/C++"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/mingw32"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include/c++/backward"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../include"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include"/>
-					<Add directory="c:\program files (x86)\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/include-fixed"/>
+					<Add directory="C:/tools/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 c/fast"/>
-					<CompileFile command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 c/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/lista-3/5.c">
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/musica/main.cpp">
 			<Option target="c"/>
 		</Unit>
 		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/../../../../../tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\tools\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
