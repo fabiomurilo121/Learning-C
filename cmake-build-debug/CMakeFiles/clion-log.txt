@@ -1,6 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa
--- Found SFML 2.5.1 in C:/tools/SFML-2.5.1/lib/cmake/SFML
-8
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug

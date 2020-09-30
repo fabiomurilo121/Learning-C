@@ -92,6 +92,11 @@ int main(){
     //printf("%s\n",recebe);
     while (ligado){
         printf("Sua vida: %d\n",numVidas);
+        printf("Letras Usadas: ");
+        for (l = 0; l < 30; ++l) {
+            printf("%c ",entrada[l]);
+        }
+        printf("\n");
         if (numVidas > 0){
             printf("\nEntre com uma letra: ");
             desenha();

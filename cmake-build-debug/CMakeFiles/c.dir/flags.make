@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd   -std:c++lates
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\tools\SFML-2.5.1\include 
+CXX_INCLUDES = 
 

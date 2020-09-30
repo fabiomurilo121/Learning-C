@@ -61,33 +61,33 @@ include CMakeFiles\c.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\c.dir\flags.make
 
-CMakeFiles\c.dir\musica\main.cpp.obj: CMakeFiles\c.dir\flags.make
-CMakeFiles\c.dir\musica\main.cpp.obj: ..\musica\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c.dir/musica/main.cpp.obj"
+CMakeFiles\c.dir\testes\teste.cpp.obj: CMakeFiles\c.dir\flags.make
+CMakeFiles\c.dir\testes\teste.cpp.obj: ..\testes\teste.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c.dir/testes/teste.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\c.dir\musica\main.cpp.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\musica\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\c.dir\testes\teste.cpp.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
 <<
 
-CMakeFiles\c.dir\musica\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c.dir/musica/main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\c.dir\musica\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\musica\main.cpp
+CMakeFiles\c.dir\testes\teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c.dir/testes/teste.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\c.dir\testes\teste.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
 <<
 
-CMakeFiles\c.dir\musica\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c.dir/musica/main.cpp.s"
+CMakeFiles\c.dir\testes\teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c.dir/testes/teste.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\musica\main.cpp.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\musica\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\testes\teste.cpp.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
 <<
 
 # Object files for target c
 c_OBJECTS = \
-"CMakeFiles\c.dir\musica\main.cpp.obj"
+"CMakeFiles\c.dir\testes\teste.cpp.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
-c.exe: CMakeFiles\c.dir\musica\main.cpp.obj
+c.exe: CMakeFiles\c.dir\testes\teste.cpp.obj
 c.exe: CMakeFiles\c.dir\build.make
 c.exe: CMakeFiles\c.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c.exe"

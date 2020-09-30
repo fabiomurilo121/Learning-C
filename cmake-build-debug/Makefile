@@ -127,32 +127,32 @@ c\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\build
 .PHONY : c\fast
 
-musica\main.obj: musica\main.cpp.obj
+testes\teste.obj: testes\teste.cpp.obj
 
-.PHONY : musica\main.obj
+.PHONY : testes\teste.obj
 
 # target to build an object file
-musica\main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\musica\main.cpp.obj
-.PHONY : musica\main.cpp.obj
+testes\teste.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.obj
+.PHONY : testes\teste.cpp.obj
 
-musica\main.i: musica\main.cpp.i
+testes\teste.i: testes\teste.cpp.i
 
-.PHONY : musica\main.i
+.PHONY : testes\teste.i
 
 # target to preprocess a source file
-musica\main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\musica\main.cpp.i
-.PHONY : musica\main.cpp.i
+testes\teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.i
+.PHONY : testes\teste.cpp.i
 
-musica\main.s: musica\main.cpp.s
+testes\teste.s: testes\teste.cpp.s
 
-.PHONY : musica\main.s
+.PHONY : testes\teste.s
 
 # target to generate assembly for a file
-musica\main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\musica\main.cpp.s
-.PHONY : musica\main.cpp.s
+testes\teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.s
+.PHONY : testes\teste.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c
-	@echo ... musica/main.obj
-	@echo ... musica/main.i
-	@echo ... musica/main.s
+	@echo ... testes/teste.obj
+	@echo ... testes/teste.i
+	@echo ... testes/teste.s
 .PHONY : help
 
 

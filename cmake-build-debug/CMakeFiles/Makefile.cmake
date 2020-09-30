@@ -32,12 +32,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake"
-  "C:/tools/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake"
   )
 
 # The corresponding makefile is:
