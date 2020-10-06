@@ -127,32 +127,32 @@ c\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\build
 .PHONY : c\fast
 
-testes\teste.obj: testes\teste.cpp.obj
+lista-3\5.obj: lista-3\5.c.obj
 
-.PHONY : testes\teste.obj
+.PHONY : lista-3\5.obj
 
 # target to build an object file
-testes\teste.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.obj
-.PHONY : testes\teste.cpp.obj
+lista-3\5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.obj
+.PHONY : lista-3\5.c.obj
 
-testes\teste.i: testes\teste.cpp.i
+lista-3\5.i: lista-3\5.c.i
 
-.PHONY : testes\teste.i
+.PHONY : lista-3\5.i
 
 # target to preprocess a source file
-testes\teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.i
-.PHONY : testes\teste.cpp.i
+lista-3\5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.i
+.PHONY : lista-3\5.c.i
 
-testes\teste.s: testes\teste.cpp.s
+lista-3\5.s: lista-3\5.c.s
 
-.PHONY : testes\teste.s
+.PHONY : lista-3\5.s
 
 # target to generate assembly for a file
-testes\teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\teste.cpp.s
-.PHONY : testes\teste.cpp.s
+lista-3\5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.s
+.PHONY : lista-3\5.c.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c
-	@echo ... testes/teste.obj
-	@echo ... testes/teste.i
-	@echo ... testes/teste.s
+	@echo ... lista-3/5.obj
+	@echo ... lista-3/5.i
+	@echo ... lista-3/5.s
 .PHONY : help
 
 

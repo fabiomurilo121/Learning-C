@@ -61,36 +61,36 @@ include CMakeFiles\c.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\c.dir\flags.make
 
-CMakeFiles\c.dir\testes\teste.cpp.obj: CMakeFiles\c.dir\flags.make
-CMakeFiles\c.dir\testes\teste.cpp.obj: ..\testes\teste.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c.dir/testes/teste.cpp.obj"
+CMakeFiles\c.dir\lista-3\5.c.obj: CMakeFiles\c.dir\flags.make
+CMakeFiles\c.dir\lista-3\5.c.obj: ..\lista-3\5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/lista-3/5.c.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\c.dir\testes\teste.cpp.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\c.dir\lista-3\5.c.obj /FdCMakeFiles\c.dir\ /FS -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\5.c
 <<
 
-CMakeFiles\c.dir\testes\teste.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c.dir/testes/teste.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\c.dir\testes\teste.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
+CMakeFiles\c.dir\lista-3\5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/lista-3/5.c.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\c.dir\lista-3\5.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\5.c
 <<
 
-CMakeFiles\c.dir\testes\teste.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c.dir/testes/teste.cpp.s"
+CMakeFiles\c.dir\lista-3\5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/lista-3/5.c.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\testes\teste.cpp.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\testes\teste.cpp
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\c.dir\lista-3\5.c.s /c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\lista-3\5.c
 <<
 
 # Object files for target c
 c_OBJECTS = \
-"CMakeFiles\c.dir\testes\teste.cpp.obj"
+"CMakeFiles\c.dir\lista-3\5.c.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
-c.exe: CMakeFiles\c.dir\testes\teste.cpp.obj
+c.exe: CMakeFiles\c.dir\lista-3\5.c.obj
 c.exe: CMakeFiles\c.dir\build.make
 c.exe: CMakeFiles\c.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c.exe"
 	"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\c.dir\objects1.rsp @<<
  /out:c.exe /implib:c.lib /pdb:C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\c.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
