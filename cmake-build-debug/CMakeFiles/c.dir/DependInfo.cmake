@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Fabio-Note/Documents/Git/Programa-imperativa/lista-3/5.c" "C:/Users/Fabio-Note/Documents/Git/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/lista-3/5.c.obj"
+  "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/testes/menu.c" "C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir/testes/menu.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

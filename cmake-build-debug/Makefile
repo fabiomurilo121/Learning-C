@@ -43,19 +43,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Fabio-Note\Documents\Git\Programa-imperativa
+CMAKE_SOURCE_DIR = C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Fabio-Note\Documents\Git\Programa-imperativa\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\Fabio-Note\Documents\Git\Programa-imperativa\cmake-b
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -74,7 +74,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-Note\Documents\Git\Programa-imperativa\cmake-build-debug\CMakeFiles C:\Users\Fabio-Note\Documents\Git\Programa-imperativa\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-Note\Documents\Git\Programa-imperativa\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,32 +127,32 @@ c\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\build
 .PHONY : c\fast
 
-lista-3\5.obj: lista-3\5.c.obj
+testes\menu.obj: testes\menu.c.obj
 
-.PHONY : lista-3\5.obj
+.PHONY : testes\menu.obj
 
 # target to build an object file
-lista-3\5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.obj
-.PHONY : lista-3\5.c.obj
+testes\menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\menu.c.obj
+.PHONY : testes\menu.c.obj
 
-lista-3\5.i: lista-3\5.c.i
+testes\menu.i: testes\menu.c.i
 
-.PHONY : lista-3\5.i
+.PHONY : testes\menu.i
 
 # target to preprocess a source file
-lista-3\5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.i
-.PHONY : lista-3\5.c.i
+testes\menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\menu.c.i
+.PHONY : testes\menu.c.i
 
-lista-3\5.s: lista-3\5.c.s
+testes\menu.s: testes\menu.c.s
 
-.PHONY : lista-3\5.s
+.PHONY : testes\menu.s
 
 # target to generate assembly for a file
-lista-3\5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\lista-3\5.c.s
-.PHONY : lista-3\5.c.s
+testes\menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c.dir\testes\menu.c.s
+.PHONY : testes\menu.c.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c
-	@echo ... lista-3/5.obj
-	@echo ... lista-3/5.i
-	@echo ... lista-3/5.s
+	@echo ... testes/menu.obj
+	@echo ... testes/menu.i
+	@echo ... testes/menu.s
 .PHONY : help
 
 

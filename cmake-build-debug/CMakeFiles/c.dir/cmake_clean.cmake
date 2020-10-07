@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/lista-3/5.c.obj"
+  "CMakeFiles/c.dir/testes/menu.c.obj"
   "c.exe"
   "c.exe.manifest"
   "c.lib"
