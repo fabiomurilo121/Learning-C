@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "C:/Users/Fabio-PC/Documents/Gi
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_c914d/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c914d.dir\build.make CMakeFiles/cmTC_c914d.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_f4e4d/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f4e4d.dir\build.make CMakeFiles/cmTC_f4e4d.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c914d.dir/testCCompiler.c.obj
-C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_c914d.dir\testCCompiler.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_c914d.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c914d.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c914d.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c914d.dir/objects.a @CMakeFiles\cmTC_c914d.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_c914d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c914d.exe -Wl,--out-implib,libcmTC_c914d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c914d.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_f4e4d.dir/testCCompiler.c.obj
+C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_f4e4d.dir\testCCompiler.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f4e4d.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f4e4d.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f4e4d.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f4e4d.dir/objects.a @CMakeFiles\cmTC_f4e4d.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f4e4d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f4e4d.exe -Wl,--out-implib,libcmTC_f4e4d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f4e4d.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -44,17 +44,17 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Pr
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_c44cf/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c44cf.dir\build.make CMakeFiles/cmTC_c44cf.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_4bd00/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4bd00.dir\build.make CMakeFiles/cmTC_4bd00.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c44cf.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_4bd00.dir/CMakeCCompilerABI.c.obj
+C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 Target: mingw32
 Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c,ada,c++,fortran,objc,obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php
 Thread model: win32
 gcc version 4.4.1 (TDM-2 mingw32) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
- cc1 -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -auxbase-strip CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc1nUwtz.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
+ cc1 -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -auxbase-strip CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Fabio-PC\AppData\Local\Temp\ccWU2e7U.s
 ignoring nonexistent directory "c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../mingw32/include"
 ignoring nonexistent directory "/mingw/include"
 ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../include"
@@ -72,16 +72,16 @@ GNU C (TDM-2 mingw32) version 4.4.1 (mingw32)
 	compiled by GNU C version 4.4.1, GMP version 4.3.0, MPFR version 2.4.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: cf55188e7d2f640bec71afc62bf8d59d
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
- as -o CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc1nUwtz.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
+ as -o CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj C:\Users\Fabio-PC\AppData\Local\Temp\ccWU2e7U.s
 COMPILER_PATH=
 LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/;c:/progra~2/falcon/mingw/bin/../lib/gcc/;c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
-Linking C executable cmTC_c44cf.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c44cf.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c44cf.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c44cf.dir/objects.a @CMakeFiles\cmTC_c44cf.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_c44cf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c44cf.exe -Wl,--out-implib,libcmTC_c44cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386'
+Linking C executable cmTC_4bd00.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4bd00.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4bd00.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4bd00.dir/objects.a @CMakeFiles\cmTC_4bd00.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_4bd00.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4bd00.exe -Wl,--out-implib,libcmTC_4bd00.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 Target: mingw32
 Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c,ada,c++,fortran,objc,obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php
@@ -89,8 +89,8 @@ Thread model: win32
 gcc version 4.4.1 (TDM-2 mingw32) 
 COMPILER_PATH=
 LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/;c:/progra~2/falcon/mingw/bin/../lib/gcc/;c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c44cf.exe' '-mtune=i386'
- ld -Bdynamic -o cmTC_c44cf.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_c44cf.dir/objects.a --no-whole-archive --out-implib libcmTC_c44cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4bd00.exe' '-mtune=i386'
+ ld -Bdynamic -o cmTC_4bd00.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_4bd00.dir/objects.a --no-whole-archive --out-implib libcmTC_4bd00.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -112,17 +112,17 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_c44cf/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c44cf.dir\build.make CMakeFiles/cmTC_c44cf.dir/build]
+  ignore line: [Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_4bd00/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4bd00.dir\build.make CMakeFiles/cmTC_4bd00.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c44cf.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_4bd00.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c ada c++ fortran objc obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php]
   ignore line: [Thread model: win32]
   ignore line: [gcc version 4.4.1 (TDM-2 mingw32) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
-  ignore line: [ cc1 -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -auxbase-strip CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc1nUwtz.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
+  ignore line: [ cc1 -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -auxbase-strip CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Fabio-PC\AppData\Local\Temp\ccWU2e7U.s]
   ignore line: [ignoring nonexistent directory "c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../mingw32/include"]
   ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../include"]
@@ -140,18 +140,18 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.4.1  GMP version 4.3.0  MPFR version 2.4.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: cf55188e7d2f640bec71afc62bf8d59d]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
-  ignore line: [ as -o CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc1nUwtz.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
+  ignore line: [ as -o CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj C:\Users\Fabio-PC\AppData\Local\Temp\ccWU2e7U.s]
   ignore line: [COMPILER_PATH=]
   ignore line: [LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c44cf.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
-  ignore line: [Linking C executable cmTC_c44cf.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c44cf.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c44cf.dir/objects.a]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c44cf.dir/objects.a @CMakeFiles\cmTC_c44cf.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe     -v -Wl --whole-archive CMakeFiles\cmTC_c44cf.dir/objects.a -Wl --no-whole-archive  -o cmTC_c44cf.exe -Wl --out-implib libcmTC_c44cf.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_4bd00.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386']
+  ignore line: [Linking C executable cmTC_4bd00.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4bd00.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4bd00.dir/objects.a]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4bd00.dir/objects.a @CMakeFiles\cmTC_4bd00.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe     -v -Wl --whole-archive CMakeFiles\cmTC_4bd00.dir/objects.a -Wl --no-whole-archive  -o cmTC_4bd00.exe -Wl --out-implib libcmTC_4bd00.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c ada c++ fortran objc obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php]
@@ -161,22 +161,22 @@ Parsed C implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c44cf.exe' '-mtune=i386']
-  link line: [ ld -Bdynamic -o cmTC_c44cf.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_c44cf.dir/objects.a --no-whole-archive --out-implib libcmTC_c44cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4bd00.exe' '-mtune=i386']
+  link line: [ ld -Bdynamic -o cmTC_4bd00.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_4bd00.dir/objects.a --no-whole-archive --out-implib libcmTC_4bd00.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o]
     arg [ld] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c44cf.exe] ==> ignore
+    arg [cmTC_4bd00.exe] ==> ignore
     arg [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o] ==> ignore
     arg [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o] ==> ignore
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1]
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc]
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../..] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_c44cf.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_4bd00.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_c44cf.dll.a] ==> ignore
+    arg [libcmTC_4bd00.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -209,15 +209,15 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_17393/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_17393.dir\build.make CMakeFiles/cmTC_17393.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_c7d32/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c7d32.dir\build.make CMakeFiles/cmTC_c7d32.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_17393.dir/testCXXCompiler.cxx.obj
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=gnu++0x -o CMakeFiles\cmTC_17393.dir\testCXXCompiler.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_17393.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_17393.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_17393.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_17393.dir/objects.a @CMakeFiles\cmTC_17393.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_17393.dir/objects.a -Wl,--no-whole-archive  -o cmTC_17393.exe -Wl,--out-implib,libcmTC_17393.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_17393.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_c7d32.dir/testCXXCompiler.cxx.obj
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=gnu++0x -o CMakeFiles\cmTC_c7d32.dir\testCXXCompiler.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_c7d32.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c7d32.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c7d32.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c7d32.dir/objects.a @CMakeFiles\cmTC_c7d32.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_c7d32.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c7d32.exe -Wl,--out-implib,libcmTC_c7d32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c7d32.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -225,17 +225,17 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Pr
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_d7011/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7011.dir\build.make CMakeFiles/cmTC_d7011.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_ae788/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ae788.dir\build.make CMakeFiles/cmTC_ae788.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d7011.dir/CMakeCXXCompilerABI.cpp.obj
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -v -std=gnu++0x -o CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_ae788.dir/CMakeCXXCompilerABI.cpp.obj
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -v -std=gnu++0x -o CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 Target: mingw32
 Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c,ada,c++,fortran,objc,obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php
 Thread model: win32
 gcc version 4.4.1 (TDM-2 mingw32) 
-COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
- cc1plus -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -auxbase-strip CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj -std=gnu++0x -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc4ukF9V.s
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
+ cc1plus -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -auxbase-strip CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj -std=gnu++0x -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc0pVz8d.s
 ignoring nonexistent directory "c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../mingw32/include"
 ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../lib/gcc/mingw32/4.4.1/include/c++"
 ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../lib/gcc/mingw32/4.4.1/include/c++/mingw32"
@@ -259,16 +259,16 @@ GNU C++ (TDM-2 mingw32) version 4.4.1 (mingw32)
 	compiled by GNU C version 4.4.1, GMP version 4.3.0, MPFR version 2.4.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4f3daefe59ac0411939d24c00fe6d8c1
-COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
- as -o CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc4ukF9V.s
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
+ as -o CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc0pVz8d.s
 COMPILER_PATH=
 LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/;c:/progra~2/falcon/mingw/bin/../lib/gcc/;c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
-Linking CXX executable cmTC_d7011.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7011.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d7011.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d7011.dir/objects.a @CMakeFiles\cmTC_d7011.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_d7011.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d7011.exe -Wl,--out-implib,libcmTC_d7011.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386'
+Linking CXX executable cmTC_ae788.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ae788.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ae788.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ae788.dir/objects.a @CMakeFiles\cmTC_ae788.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_ae788.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ae788.exe -Wl,--out-implib,libcmTC_ae788.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 Target: mingw32
 Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c,ada,c++,fortran,objc,obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php
@@ -276,8 +276,8 @@ Thread model: win32
 gcc version 4.4.1 (TDM-2 mingw32) 
 COMPILER_PATH=
 LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/;c:/progra~2/falcon/mingw/bin/../lib/gcc/;c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7011.exe' '-mtune=i386'
- ld -Bdynamic -o cmTC_d7011.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_d7011.dir/objects.a --no-whole-archive --out-implib libcmTC_d7011.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae788.exe' '-mtune=i386'
+ ld -Bdynamic -o cmTC_ae788.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_ae788.dir/objects.a --no-whole-archive --out-implib libcmTC_ae788.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -305,17 +305,17 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_d7011/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7011.dir\build.make CMakeFiles/cmTC_d7011.dir/build]
+  ignore line: [Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_ae788/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ae788.dir\build.make CMakeFiles/cmTC_ae788.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d7011.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -v -std=gnu++0x -o CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ae788.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -v -std=gnu++0x -o CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c ada c++ fortran objc obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php]
   ignore line: [Thread model: win32]
   ignore line: [gcc version 4.4.1 (TDM-2 mingw32) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
-  ignore line: [ cc1plus -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -auxbase-strip CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj -std=gnu++0x -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc4ukF9V.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
+  ignore line: [ cc1plus -quiet -v -iprefix c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/ C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -auxbase-strip CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj -std=gnu++0x -version -o C:\Users\Fabio-PC\AppData\Local\Temp\cc0pVz8d.s]
   ignore line: [ignoring nonexistent directory "c:\progra~2\falcon\mingw\bin\../lib/gcc/mingw32/4.4.1/../../../../mingw32/include"]
   ignore line: [ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../lib/gcc/mingw32/4.4.1/include/c++"]
   ignore line: [ignoring duplicate directory "c:/progra~2/falcon/mingw/lib/gcc/../../lib/gcc/mingw32/4.4.1/include/c++/mingw32"]
@@ -339,18 +339,18 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.4.1  GMP version 4.3.0  MPFR version 2.4.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4f3daefe59ac0411939d24c00fe6d8c1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
-  ignore line: [ as -o CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc4ukF9V.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
+  ignore line: [ as -o CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Fabio-PC\AppData\Local\Temp\cc0pVz8d.s]
   ignore line: [COMPILER_PATH=]
   ignore line: [LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_d7011.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
-  ignore line: [Linking CXX executable cmTC_d7011.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7011.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d7011.dir/objects.a]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d7011.dir/objects.a @CMakeFiles\cmTC_d7011.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE     -v -Wl --whole-archive CMakeFiles\cmTC_d7011.dir/objects.a -Wl --no-whole-archive  -o cmTC_d7011.exe -Wl --out-implib libcmTC_d7011.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++0x' '-o' 'CMakeFiles\cmTC_ae788.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=i386']
+  ignore line: [Linking CXX executable cmTC_ae788.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ae788.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ae788.dir/objects.a]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ae788.dir/objects.a @CMakeFiles\cmTC_ae788.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE     -v -Wl --whole-archive CMakeFiles\cmTC_ae788.dir/objects.a -Wl --no-whole-archive  -o cmTC_ae788.exe -Wl --out-implib libcmTC_ae788.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../gcc-4.4.1/configure --prefix=/mingw --build=mingw32 --enable-languages=c ada c++ fortran objc obj-c++ --disable-nls --disable-win32-registry --enable-libgomp --enable-cxx-flags='-fno-function-sections -fno-data-sections' --disable-werror --enable-threads --disable-symvers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-pkgversion='TDM-2 mingw32' --enable-sjlj-exceptions --with-bugurl=http://www.tdragon.net/recentgcc/bugs.php]
@@ -360,22 +360,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/]
   ignore line: [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7011.exe' '-mtune=i386']
-  link line: [ ld -Bdynamic -o cmTC_d7011.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_d7011.dir/objects.a --no-whole-archive --out-implib libcmTC_d7011.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae788.exe' '-mtune=i386']
+  link line: [ ld -Bdynamic -o cmTC_ae788.exe c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1 -Lc:/progra~2/falcon/mingw/bin/../lib/gcc -Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../.. --whole-archive CMakeFiles\cmTC_ae788.dir/objects.a --no-whole-archive --out-implib libcmTC_ae788.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtend.o]
     arg [ld] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d7011.exe] ==> ignore
+    arg [cmTC_ae788.exe] ==> ignore
     arg [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../../crt2.o] ==> ignore
     arg [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/crtbegin.o] ==> ignore
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1]
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc]
     arg [-Lc:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../..] ==> dir [c:/progra~2/falcon/mingw/bin/../lib/gcc/mingw32/4.4.1/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_d7011.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_ae788.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_d7011.dll.a] ==> ignore
+    arg [libcmTC_ae788.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -411,15 +411,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++0x] compiler features compiled with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_7be92/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7be92.dir\build.make CMakeFiles/cmTC_7be92.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_a6967/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a6967.dir\build.make CMakeFiles/cmTC_a6967.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7be92.dir/feature_tests.cxx.obj
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=c++0x -std=gnu++0x -o CMakeFiles\cmTC_7be92.dir\feature_tests.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_7be92.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7be92.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7be92.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7be92.dir/objects.a @CMakeFiles\cmTC_7be92.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_7be92.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7be92.exe -Wl,--out-implib,libcmTC_7be92.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7be92.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_a6967.dir/feature_tests.cxx.obj
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=c++0x -std=gnu++0x -o CMakeFiles\cmTC_a6967.dir\feature_tests.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_a6967.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a6967.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a6967.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a6967.dir/objects.a @CMakeFiles\cmTC_a6967.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_a6967.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6967.exe -Wl,--out-implib,libcmTC_a6967.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a6967.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -486,15 +486,15 @@ mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Pr
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_43e55/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_43e55.dir\build.make CMakeFiles/cmTC_43e55.dir/build
+Run Build Command(s):C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe cmTC_222fc/fast && C:/PROGRA~2/Falcon/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_222fc.dir\build.make CMakeFiles/cmTC_222fc.dir/build
 mingw32-make.exe[1]: Entering directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43e55.dir/feature_tests.cxx.obj
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=c++98 -std=gnu++0x -o CMakeFiles\cmTC_43e55.dir\feature_tests.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_43e55.exe
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_43e55.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_43e55.dir/objects.a
-C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_43e55.dir/objects.a @CMakeFiles\cmTC_43e55.dir\objects1.rsp
-C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_43e55.dir/objects.a -Wl,--no-whole-archive  -o cmTC_43e55.exe -Wl,--out-implib,libcmTC_43e55.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_43e55.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_222fc.dir/feature_tests.cxx.obj
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE    -std=c++98 -std=gnu++0x -o CMakeFiles\cmTC_222fc.dir\feature_tests.cxx.obj -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_222fc.exe
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_222fc.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_222fc.dir/objects.a
+C:\PROGRA~2\Falcon\MinGW\bin\ar.exe cr CMakeFiles\cmTC_222fc.dir/objects.a @CMakeFiles\cmTC_222fc.dir\objects1.rsp
+C:\PROGRA~2\Falcon\MinGW\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_222fc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_222fc.exe -Wl,--out-implib,libcmTC_222fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_222fc.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory `C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
