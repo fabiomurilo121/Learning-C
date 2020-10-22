@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <afxres.h>
+#include <unistd.h>
+//#include <afxres.h>
 
 typedef struct sEstudante {  
     char nome[200]; 
@@ -62,7 +63,8 @@ int main() {
                 if (addEstudante (turma, estudante) != 0){
                     printf ("Ocorreu um problema, %s nao pode ser adicionado\n", estudante.nome);
                 } printf ("<%s> adicionado na lista!\n", estudante.nome);
-                Sleep(1800);
+                //Sleep(1800);
+                usleep(600000);
                 break;
             case 2:
                 printf ("\n--- Consultar Estudante ---\n\n");
@@ -70,13 +72,14 @@ int main() {
                 scanf ("%d", &pos);
                 est = getEstudante(turma, pos);
                 imprimirEstudante(est);
+                usleep(1000000);
                 break;
             case 3:               
                 break;                            
             case 4:               
                 break;                
             case 5:
-                imprimirTurma(turma);                
+                imprimirTurma(turma);
                 break;
             case 6:               
                 break;                            
@@ -192,6 +195,7 @@ void imprimirTurma (tLista  *turma){
     // teste de NULL para a lista
     if (turma==NULL){
         printf ("Turma inexistente!\n");
+        usleep(50000);
         return;
     }
 
@@ -201,16 +205,9 @@ void imprimirTurma (tLista  *turma){
     e = turma->ini; 
     for (i=0; i<turma->qtde; i++){
         imprimirEstudante(e);
+        usleep(900000);
         e = e->prox;
     }
-    // 2a. opcao: usando o fato de que o ultimo aponta para NULL
-    /*
-    e = turma->ini; 
-    while (e != NULL){
-        imprimirEstudante(e);
-        e = e->prox;
-    }
-    */
 }
 
 tEstudante lerEstudante(){
@@ -228,10 +225,11 @@ void imprimirEstudante (tEstudante *e){
 
     if (e == NULL){
         printf ("Estudante inexistente!\n");
-        Sleep(1800);
+        usleep(1800000);
         return;
     }
     printf ("Nome: %s\n", e->nome);
     // mostrar notas e média
-    Sleep(1800);
+
+
 }
