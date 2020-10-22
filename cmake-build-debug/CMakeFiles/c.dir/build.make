@@ -76,27 +76,27 @@ include CMakeFiles/c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c.dir/flags.make
 
-CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj: CMakeFiles/c.dir/flags.make
-CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj: ../struct/sistemaTurmaListaDinamica_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_4.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_4.c
+CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj: CMakeFiles/c.dir/flags.make
+CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj: ../struct/sistemaTurmaListaDinamica_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_5.c.obj   -c C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_5.c
 
-CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.i"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_4.c > CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_4.c.i
+CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.i"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_5.c > CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_5.c.i
 
-CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.s"
-	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_4.c -o CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_4.c.s
+CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.s"
+	C:\PROGRA~2\Falcon\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Fabio-PC\Documents\Gitkraken\Programa-imperativa\struct\sistemaTurmaListaDinamica_5.c -o CMakeFiles\c.dir\struct\sistemaTurmaListaDinamica_5.c.s
 
 # Object files for target c
 c_OBJECTS = \
-"CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj"
+"CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj"
 
 # External object files for target c
 c_EXTERNAL_OBJECTS =
 
-c.exe: CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj
+c.exe: CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj
 c.exe: CMakeFiles/c.dir/build.make
 c.exe: CMakeFiles/c.dir/linklibs.rsp
 c.exe: CMakeFiles/c.dir/objects1.rsp

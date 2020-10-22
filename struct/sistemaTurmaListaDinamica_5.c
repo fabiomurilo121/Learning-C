@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <afxres.h>
 
 typedef struct sEstudante {  
     char nome[200]; 
@@ -60,6 +62,7 @@ int main() {
                 if (addEstudante (turma, estudante) != 0){
                     printf ("Ocorreu um problema, %s nao pode ser adicionado\n", estudante.nome);
                 } printf ("<%s> adicionado na lista!\n", estudante.nome);
+                Sleep(1800);
                 break;
             case 2:
                 printf ("\n--- Consultar Estudante ---\n\n");
@@ -225,8 +228,10 @@ void imprimirEstudante (tEstudante *e){
 
     if (e == NULL){
         printf ("Estudante inexistente!\n");
+        Sleep(1800);
         return;
     }
     printf ("Nome: %s\n", e->nome);
     // mostrar notas e média
+    Sleep(1800);
 }

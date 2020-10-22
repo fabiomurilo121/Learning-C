@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj"
+  "CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_5.c.obj"
   "c.exe"
   "c.exe.manifest"
   "c.pdb"
