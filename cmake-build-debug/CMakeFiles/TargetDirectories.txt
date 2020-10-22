@@ -1,3 +1,0 @@
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/c.dir
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Fabio-PC/Documents/Gitkraken/Programa-imperativa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
