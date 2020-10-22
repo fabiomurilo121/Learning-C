@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c.dir/testes/menu.c.obj"
+  "CMakeFiles/c.dir/struct/sistemaTurmaListaDinamica_4.c.obj"
   "c.exe"
   "c.exe.manifest"
-  "c.lib"
   "c.pdb"
+  "libc.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

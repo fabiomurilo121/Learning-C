@@ -10,4 +10,5 @@ project(c)
 #find_package(SFML 2.5.1 COMPONENTS audio REQUIRED)
 #message("${CMAKE_SIZEOF_VOID_P}")
 
-add_executable(c testes/menu.c)
+add_executable(c struct/sistemaTurmaListaDinamica_4.c)
+#add_executable(c testes/teste.c)
