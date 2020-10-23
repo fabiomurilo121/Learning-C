@@ -5,15 +5,10 @@
 #include <stdio.h>
 #include <mem.h>
 
+
 int main(){
     int i,j;
-    char nm[3][20], aux[20];
-
-    for (i = 0; i < 3; i++) {
-        printf("\nNome %i: ", i+1);
-        scanf("%s", nm[i]);
-    }
-
+    char nm[3][20]= {"fabio","will","ana"}, aux[20];
 
     for (i = 1; i < 3; i++) { /* 3 = qtde de palavras */
         for (j = 1; j < 3; j++) {
@@ -28,7 +23,7 @@ int main(){
 
 // só mostrar a matriz
     for (i = 0; i < 3; i++)
-        printf("\n%s", nm[i]);
+        printf("%s\n", nm[i]);
 
     return 0;
 }
