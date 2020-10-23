@@ -4,7 +4,7 @@
 #include <unistd.h>
 //#include <afxres.h>
 
-typedef struct sEstudante {  
+typedef struct sEstudante {
     char nome[200]; 
     float n1, n2;
     struct sEstudante *prox;
@@ -16,7 +16,7 @@ typedef struct {
     int qtde;
 } tLista;
 
-// funcoes ok com nova abordagem 
+// funcoes ok com nova abordagem
 tLista *criarFila();
 int addEstudante (tLista *, tEstudante);
 tEstudante *getEstudante (tLista *, int);

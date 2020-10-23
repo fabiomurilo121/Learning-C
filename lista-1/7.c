@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-#define TAM 20
+#define TAM 10
 
-int vetor[TAM], entrada, k, i;
+int vetor[TAM]={31,42,3,12,4,7,4,3213,12,54}, entrada, k, i;
 
 int ordena(int vetor[],int tam){
     int j,i,aux;
@@ -35,13 +35,16 @@ int randomico(const int vet[],int tam){
 
 int main(){
     printf("Entre com 20 numeros \n");
-/*    for (k = 0; k < TAM; ++k) {
-        scanf_s("%d",&entrada);
-        vetor[k] = entrada;
-
-    }*/
+//    for (k = 0; k < TAM; ++k) {
+//        scanf("%d",&entrada);
+//        vetor[k] = entrada;
+//
+//    }
     ordena(vetor,TAM);
-
+    int j;
+    for (j = 0; j < TAM; ++j) {
+        printf("%d\n",vetor[j]);
+    }
 
     return 0;
 }
