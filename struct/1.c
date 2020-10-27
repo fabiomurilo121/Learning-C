@@ -14,11 +14,16 @@ int main(){
     struct sDados pessoa1 = {"Paulin",82.0};
     struct sDados pessoa2;
     struct sDados familia[4];
+    int i;
+    printf("Ban will");
+    scanf_s("%d",&i);
+
+    printf("\n");
 
     printf("Entre com seu nome:");
 
     /* Ler os dados */
-    scanf("%[^\n]", &pessoa2.nome);
+    scanf(" %[^\n]", &pessoa2.nome);
     /* Limpar o buffer */
     scanf("%*[^\n]"); scanf("%*c");
     /* Voltar ao passo 1. */

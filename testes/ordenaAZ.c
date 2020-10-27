@@ -5,11 +5,10 @@
 #include <stdio.h>
 #include <mem.h>
 
-
 int main(){
-    int i,j;
-    char nm[3][20]= {"fabio","will","ana"}, aux[20];
 
+    char nm[3][20]= {"fabio","will","ana"}, aux[20];
+    int i,j;
     for (i = 1; i < 3; i++) { /* 3 = qtde de palavras */
         for (j = 1; j < 3; j++) {
             // verifica se tem que ser depois, se for troca de posição

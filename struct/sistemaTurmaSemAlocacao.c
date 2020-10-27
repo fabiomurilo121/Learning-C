@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct {  
+typedef struct{
     char nome[200];
     float n1, n2;
 } tEstudante;
@@ -12,6 +12,7 @@ typedef struct {
 void imprimirTurma (tEstudante t[], int tam);
 tEstudante lerEstudante();
 void imprimirEstudante (tEstudante e);
+void ordena_az(tEstudante s[], int tam);
 
 int main() {
     tEstudante turma[TAM];
@@ -29,7 +30,7 @@ int main() {
         scanf ("%d", &opcao);
         switch (opcao) {
             case 0:
-                exit(0);
+                
                 break;
             case 1:
                 if (pos<TAM) {
@@ -48,7 +49,8 @@ int main() {
                 break;
             case 4:
                 // pegar o selecao direta já feito e adaptar para ordenar A-Z
-                // usar strncmp e funcao de troca 
+                // usar strncmp e funcao de troca
+                ordena_az(turma,pos);
                 break;                
             default:
                 printf ("Opcao inexistente! Escolha entre <0>..<4>!");
@@ -64,6 +66,7 @@ void lerTurma (tEstudante t[], int tam){
         t[i] = lerEstudante();
     }
 }
+
 // definição
 void imprimirTurma (tEstudante t[], int tam){
     int i;
@@ -88,4 +91,23 @@ tEstudante lerEstudante(){
 void imprimirEstudante (tEstudante e){
     printf ("Nome: %s\n", e.nome);
     // mostrar notas e média
+}
+
+void ordena_az(tEstudante s[], int tam){
+    int i, j, n = tam;
+    tEstudante t;
+    for (i = 0; i < n; i++) {
+        for (j = i + 1; j < n; j++) {
+            if (strcmp(s[i].nome, s[j].nome) > 0) {
+                t = s[i];
+                s[i] = s[j];
+                s[j] = t;
+            }
+        }
+    }
+    printf("Em Ordem Alfabetica\n");
+
+    for (i = 0; i < tam; i++) {
+        printf("Nome: %s\n", s[i].nome);
+    }
 }

@@ -1,40 +1,63 @@
-# include<stdio.h>
-const int qtd = 10;
+#include <stdio.h>
+#include <mem.h>
+const int qtd = 3;
 const int tam = 30;
-main()
-{
+
+void ordena_az(char a[3][20], char aux[tam]){
     int i, j, x, menor;
-    char a[qtd][tam], aux[qtd];
-    for(i = 0; i < 3; i++)
-    {
-        printf("Informe o %d nome: ", i + 1);
-        scanf("%s", a[i]);
-    }
-    for(i = 0; i < qtd - 1; i++)
-    {
+    for(i = 0; i < qtd - 1; i++){
         x = 0;
         menor = i;
-        for(j = i + 1; j < qtd; j++)
-        {
+        for(j = i + 1; j < qtd; j++){
             x = 0;
-            while(a[menor][x] == a[j][x])
-            {
+            while(a[menor][x] == a[j][x]){
                 x++;
             }
-            if(a[menor][x] > a[j][x])
-            {
+            if(a[menor][x] > a[j][x]){
                 menor = j;
             }
         }
-        if(menor != i)
-        {
+        if(menor != i){
             strcpy(aux, a[menor]);
             strcpy(a[menor], a[i]);
             strcpy(a[i], aux);
         }
     }
-    for(i = 0; i < qtd; i++)
-    {
+}
+
+
+
+int main(){
+
+    char a[3][20] = {"fabifo","will","ana"}, aux[tam];
+    ordena_az(a,aux);
+//    for(i = 0; i < 3; i++)
+//    {
+//        printf("Informe o %d nome: ", i + 1);
+//        scanf("%s", a[i]);
+//    }
+
+//    for(i = 0; i < qtd - 1; i++){
+//        x = 0;
+//        menor = i;
+//        for(j = i + 1; j < qtd; j++){
+//            x = 0;
+//            while(a[menor][x] == a[j][x]){
+//                x++;
+//            }
+//            if(a[menor][x] > a[j][x]){
+//                menor = j;
+//            }
+//        }
+//        if(menor != i){
+//            strcpy(aux, a[menor]);
+//            strcpy(a[menor], a[i]);
+//            strcpy(a[i], aux);
+//        }
+//    }
+
+    int i;
+    for(i = 0; i < qtd; i++){
         printf("%s%c", a[i], 10);
     }
 }
