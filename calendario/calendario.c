@@ -53,7 +53,7 @@ int determinabixesto(int ano) // bixesto
     }
 }
 
-void calendario(int ano, int diacode) {
+void calendario(int diacode) {
 
     int mes, dia;
     for (mes = 1; mes <= 12; mes++) {
@@ -86,6 +86,6 @@ int main() {
     ano = entrada();
     diacode = determinacodedia(ano);
     determinabixesto(ano);
-    calendario(ano, diacode);
+    calendario(diacode);
     printf("\n");
 }
