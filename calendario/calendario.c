@@ -57,7 +57,7 @@ void calendario(int diacode) {
 
     int mes, dia;
     for (mes = 1; mes <= 12; mes++) {
-        printf("%s", meses[mes]);
+        printf("%s", meses[mes]); // nome do mes
         printf("\n\nDom  Seg  Ter  qua  qui  sex  sab\n");
 
         // Corrija a posição para a primeira data
