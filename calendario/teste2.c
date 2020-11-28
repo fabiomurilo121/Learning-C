@@ -1,19 +1,18 @@
-//
-// Created by Fabio-PC on 06/11/2020.
-//
+/* Example using strcmp by TechOnTheNet.com */
+
 #include <stdio.h>
+#include <string.h>
 
-int determinedaycode(int year){
-    int daycode;
-    int d1, d2, d3;
+int main(int argc, char * argv[]){
+    int result;
 
-    d1 = (year - 1.)/ 4.0;
-    d2 = (year - 1.)/ 100.;
-    d3 = (year - 1.)/ 400.;
-    daycode = (year + d1 - d2 + d3) %7;
-    return daycode;
-}
+    char string[50] = "calendario";
 
-int main(){
-    printf("%d",determinedaycode(2018));
+    result = strcmp(string, argv[1]);
+
+    if (result == 0) printf("Strings are the same\n");
+
+    if (result < 0) printf("Second string is less than the first\n");
+
+    return 0;
 }
